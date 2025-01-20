@@ -50,6 +50,11 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: microscopic-wormhole-creation
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/microscopic-wormhole-creation.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: quantum-foam-observation
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/quantum-foam-observation.clar
